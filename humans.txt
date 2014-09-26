@@ -1,0 +1,9 @@
+/* TEAM */
+	Software Sculptor: Pepe Doval Gonzalez
+	Twitter: @pepellou
+	From: Santiago de Compostela, Galicia, Spain
+	Works for: Agil-AZ S.L.
+
+/* SITE */
+	Language: Galician
+	Doctype: HTML
