@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+<html>
+<head>
+	<title>Movendo Galiza</title>
+	<meta charset='utf-8'>
+	<meta name="description" content="" > 
+	<link rel="author" href="humans.txt">
+	<link rel="stylesheet"
+        type="text/css"
+        href="css/style.css">
+	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+	<script type="text/javascript"
+	      src="http://maps.googleapis.com/maps/api/js?key=AIzaSyB9z6AhWZRroBRzUmzAJoTzxUgRkq6bXbI&sensor=false&language=es">
+	</script>
+	<script src="js/stops.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/map.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+	<div id="mapwrap"><div id="map_canvas"></div></div>
+	<header>
+		<h1>Movendo Galiza</h1>
+	</header>
+	<div class="hint">
+		<p>
+			<strong>&iquest;Por que?</strong><br/>
+            Non é por que, senon para que, ou mellor dito para quen: para todos aqueles que queren moverse por Galiza.
+		</p>
+	</div>
+
+	<div id="stopCard">
+		<h1 class="name">Nome</h1>
+		<ul class="lines">
+			<li>10</li>
+			<li>15</li>
+		</ul><br/>
+	</div>
+
+	<h1 class="hidden">&iquest;Botas en falta algunha parada?</h1>
+	<p class="hidden">
+		Danos todos os datos, por favor:
+	</p>
+	<form class="hidden">
+		<fieldset name="new_stop" class="bg_lightgrey">
+			Nome: <input type="text" name="name"/><br/>
+			Liñas: <input type="text" name="technologies"/><br/>
+			GMaps: <input type="text" name="gmaps"/><br/>
+			<button>Engadir</button>
+		</fieldset>
+	</form>
+
+	<footer>
+		<div class="logosFooter">
+			<ul>
+				<li><a href="humans.txt" target="_blank"><img src="img/humanstxt-transparent-color.png"></a></li>
+			</ul>
+		</div>
+	</footer>
+
+	<script>
+		$(function() {
+			setUpMapStops(stops);
+		});
+	</script>
+
+</body>
+</html>
