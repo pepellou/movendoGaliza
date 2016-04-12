@@ -37,6 +37,11 @@ header h1 {
     padding: 0px 50px;
     color: white;
 }
+header p {
+    color: white;
+    font-weight: bold;
+    width: 100%;
+}
 #stopCard {
     float: left;
     position: fixed;
