@@ -436,3 +436,32 @@ div #form input{float: left;}
 	color: #fff;
 	text-decoration: underline;
 }
+
+.message {
+	opacity: 0;
+	width: 40%;
+	margin-left: 20%;
+	height: 50px;
+	z-index: 2;
+	position: fixed;
+	top: 50%;
+	border-radius: 10px;
+	font-family: 'SourceSansPro-Light', Georgia, times, serif;
+	font-size: 24px;
+	text-align: center;
+	letter-spacing: -.5px;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
+.error {
+	color: #c77;
+	background-color: #ecc;
+	border: 1px solid #b88;
+}
+.success {
+	color: #7c7;
+	background-color: #cec;
+	border: 1px solid #8b8;
+}
